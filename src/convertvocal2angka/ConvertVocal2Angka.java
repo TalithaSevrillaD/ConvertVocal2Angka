@@ -17,6 +17,7 @@ public class ConvertVocal2Angka {
         String kalimat = tampilInput();
         String convert = vocal2Angka(kalimat);
         tampilPerkata(kalimat, convert);
+        tampilHasil(convert);
     }
         private static String tampilInput() 
         {
@@ -49,6 +50,13 @@ public class ConvertVocal2Angka {
             
            
         }
+        private static void tampilHasil(String convert)
+        {
+            System.out.println("Kalimat Alay Angka : " + convert);
+            
+            
+        }
+
 
 
 
