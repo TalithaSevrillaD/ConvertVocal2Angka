@@ -14,7 +14,19 @@ public class ConvertVocal2Angka {
     public static void main(String[] args){
     String identitas = "Talitha Sevrilla Duriga / XRPL2 / 35";
         tampilJudul(identitas);
+        String kalimat = tampilInput();
     }
+        private static String tampilInput() 
+        {
+            Scanner scanner = new Scanner (System.in);
+            
+            System.out.println("Masukkan Kalimat : ");
+            String kalimat = scanner.nextLine();
+            System.out.println("Kalimat Asli : " + kalimat);
+            
+            return kalimat;
+        }
+
 
     }
     
